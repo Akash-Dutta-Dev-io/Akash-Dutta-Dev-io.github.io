@@ -483,7 +483,7 @@ header {
 
 /* About Me */
 
-#about {
+/* #about {
     display: flex;
     column-gap: 30px;
     margin: 100px 180px;
@@ -511,7 +511,47 @@ header {
 
 #about .right-column {
     margin-top: 70px;
+} */
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 180px;
 }
+
+#about form{
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2vw 1vw;
+    width: 40%;
+    max-width: 326px;
+    border-radius: 10px;
+ }
+
+ #about form input, form textarea{
+    border: 0;
+    margin: 6px 0;
+    padding: 8px;
+    outline: none;
+    background-color: #f5f5f5;
+    font-size: 16px;
+ }
+
+ #about form button{
+    padding: 10px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 10px auto 0;
+    border-radius: 30px;
+ }
+
 
 /* Footer */
 
