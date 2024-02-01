@@ -19,16 +19,16 @@ document.querySelectorAll(".nav-links").forEach(n => n.addEventListener("click",
 }))
 
 
-function sendEmail(){
-  Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "akashdutta.business96@gmail.com",
-    Password : "3557A9EADA38E62CA92D4344005EACB43C8D",
-    To : 'akashdutta.business96@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-}
+// function sendEmail(){
+//   Email.send({
+//     Host : "smtp.elasticemail.com",
+//     Username : "akashdutta.business96@gmail.com",
+//     Password : "3557A9EADA38E62CA92D4344005EACB43C8D",
+//     To : 'akashdutta.business96@gmail.com',
+//     From : document.getElementById("email").value,
+//     Subject : "This is the subject",
+//     Body : "And this is the body"
+// }).then(
+//   message => alert(message)
+// );
+// }

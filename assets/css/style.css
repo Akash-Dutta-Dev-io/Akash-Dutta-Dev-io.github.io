@@ -59,7 +59,7 @@ header {
 }
 
 .hero .right-col img {
-    width: 260px;
+    width: 300px;
     box-shadow: 10px 10px 30px black;
 }
 
@@ -483,7 +483,7 @@ header {
 
 /* About Me */
 
-/* #about {
+#about {
     display: flex;
     column-gap: 30px;
     margin: 100px 180px;
@@ -499,7 +499,7 @@ header {
 }
 
 .left-column img {
-    width: 180px;
+    width: 240px;
     box-shadow: 10px 10px 30px red;
     margin: 40px;
 }
@@ -511,9 +511,9 @@ header {
 
 #about .right-column {
     margin-top: 70px;
-} */
+}
 
-#about{
+/* #about{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -550,7 +550,7 @@ header {
     width: 150px;
     margin: 10px auto 0;
     border-radius: 30px;
- }
+ } */
 
 
 /* Footer */
