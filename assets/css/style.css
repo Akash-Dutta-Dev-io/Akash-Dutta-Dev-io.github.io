@@ -653,13 +653,13 @@ header {
         flex-direction: column;
         background-color: grey;
         width: 100%;
-        height: 52vh;
+        height: 40vh;
         text-align: center;
         transform: 0.3s;
     }
 
     .nav-links li {
-        margin: 10px;
+        margin: 5px;
     }
 
     .nav-links.active {
