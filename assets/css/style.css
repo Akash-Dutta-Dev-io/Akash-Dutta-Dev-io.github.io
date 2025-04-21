@@ -727,6 +727,11 @@ header {
         margin-bottom: 30px;
     }
 
+    .lower video{
+        width: 270px;
+        /* margin: 0 auto; */
+    }
+
     /* About Section */
 
     #about {
